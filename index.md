@@ -696,8 +696,7 @@ CubeSat is launched into space, it cannot be examined or repaired.
 CubeSats {#cubesats .Style1}
 --------
 
-![](./media/image3.png){width="4.067580927384077in"
-height="2.6265452755905514in"}
+![](./media/image3.png){}
 
 <span id="_Toc493950398" class="anchor"></span>Figure 1.1 CubeSat unit
 specification
@@ -733,7 +732,8 @@ available counter parts and usually one generation behind in the
 technologies used.
 
   ------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------
-  ![](./media/image4.png){width="3.020297462817148in" height="1.9721883202099737in"}   ![](./media/image5.png){width="2.9816010498687664in" height="1.9354429133858269in"}
+  ![](./media/image4.png){}   
+  ![](./media/image5.png){}
   \(a) Cubesat launches per year \[13\].                                               \(b) CubeSat launches per organization \[13\].
   <span id="_Toc493950399" class="anchor"></span>Figure 1.2 CubeSat numbers
   ------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------
@@ -779,13 +779,11 @@ SatNOGS consists of 4 parts:
 
 -   The Ground Station contains the rotator, antennas and electronics.
 
-![](./media/image6.png){width="6.496527777777778in"
-height="3.638888888888889in"}
+![](./media/image6.png){}
 
 <span id="_Toc493950400" class="anchor"></span>Figure 1.3 SatNOGS \[4\]
 
-![](./media/image7.jpeg){width="6.496527777777778in"
-height="3.654166666666667in"}
+![](./media/image7.jpeg){}
 
 <span id="_Toc493950645" class="anchor"></span>Image 1.1 SatNOGS rotator
 \[4\]
@@ -793,8 +791,7 @@ height="3.654166666666667in"}
 Mission requirements {#mission-requirements .Style1}
 --------------------
 
-![](./media/image8.png){width="4.24251968503937in"
-height="4.24251968503937in"}
+$
 
 <span id="_Toc493950401" class="anchor"></span>Figure 1.4 QB50 targets
 \[8\]
@@ -856,19 +853,19 @@ the necessary services functionality.
 The umbilical connector is used for charging the on-board batteries and
 serial connection with the OBC used for testing.
 
-![](./media/image9.png){width="6.496527777777778in"
-height="4.006944444444445in"}
+![](./media/image9.png){}
 
 <span id="_Toc493950402" class="anchor"></span>Figure 1.5 UPSat
 subsystems.
 
-![](./media/image10.png){width="6.496527777777778in" height="5.56875in"}
+![](./media/image10.png){}
 
 <span id="_Toc493950403" class="anchor"></span>Figure 1.6 UPSat
 subsystems diagram
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image11.jpeg){width="1.9766087051618548in" height="2.635409011373578in"}                          ![](./media/image12.jpg){width="3.9525284339457567in" height="2.6372714348206476in"}
+  ![](./media/image11.jpeg){}                          
+  ![](./media/image12.jpg){}
                                                                                                                 
   <span id="_Toc493950646" class="anchor"></span>Image 1.2 UPSat subsystems mounted in the aluminum structure   <span id="_Toc493950647" class="anchor"></span>Image 1.3 UPSat's umbilical connector and remove before flight switch
   ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------
@@ -876,8 +873,7 @@ subsystems diagram
 
 ### COMMS
 
-![](./media/image13.png){width="5.116597769028871in"
-height="5.061357174103237in"}
+![](./media/image13.png){}
 
 <span id="_Toc493950404" class="anchor"></span>Figure 1.7 COMMS
 subsystem \[6\]
@@ -888,8 +884,7 @@ communication with the Earth and the ground stations.
 It consists of: STM32F407 microcontroller with an ARM cortex M4 CPU core
 that has 1 Mbyte of Flash and
 
-![](./media/image14.jpeg){width="2.2888888888888888in"
-height="1.5256944444444445in"}192 Kbytes of SRAM, 2 CC1120 RF
+![](./media/image14.jpeg){}192 Kbytes of SRAM, 2 CC1120 RF
 transceivers with 2-FSK modulation, connected with the microcontroller
 with SPI, one used for reception at 145 MHZ and the other for
 transmission at 435 MHZ, the ADT7420 temperature sensor connected with
@@ -901,8 +896,7 @@ The COMMS is connected to the antenna deployment system that deploys the
 
 ### OBC
 
-![](./media/image15.jpeg){width="5.955714129483814in"
-height="4.466626202974628in"}
+![](./media/image15.jpeg){}
 
 <span id="_Toc493950649" class="anchor"></span>Image 1.5 OBC subsystem
 during testing
@@ -931,7 +925,8 @@ could host both functionalities, it was decided to split the subsystems
 into 2 PCBs and microcontrollers respectively.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image16.jpeg){width="2.930967847769029in" height="2.910917541557305in"}   ![](./media/image17.jpeg){width="2.910917541557305in" height="2.910917541557305in"}
+  ![](./media/image16.jpeg){}   
+  ![](./media/image17.jpeg){}
                                                                                         
   <span id="_Toc493950650" class="anchor"></span>Image 1.6 OBC and ADCS subsystem       <span id="_Toc493950651" class="anchor"></span>Image 1.7 ADCS subsystem unpopulated PCB
   ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
@@ -939,8 +934,7 @@ into 2 PCBs and microcontrollers respectively.
 
 ### ADCS
 
-![](./media/image18.png){width="2.8430555555555554in"
-height="1.4104166666666667in"}The Altitude Determination and Control
+![](./media/image18.png){}The Altitude Determination and Control
 Subsystem (ADCS) is responsible for determine UPSat's position and
 rotation and controlling the behaviour according to the defined set
 points. The microcontoller takes the sensors information, feeds it to
@@ -978,8 +972,7 @@ It consists of:
 
     1.  ### EPS
 
-![](./media/image19.jpeg){width="5.23331583552056in"
-height="2.9436351706036747in"}
+![](./media/image19.jpeg){}
 
 <span id="_Toc493950653" class="anchor"></span>Image 1.9 EPS subsystems
 PCBs
@@ -1002,7 +995,8 @@ It consists of:
 -   MOSFET switches for controlling the subsystems power.
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image20.jpg){width="3.2065923009623796in" height="2.4797626859142605in"}                  ![](./media/image21.jpg){width="2.2870253718285216in" height="2.4953160542432196in"}
+  ![](./media/image20.jpg){}                  
+  ![](./media/image21.jpg){}
                                                                                                         
   <span id="_Toc493950654" class="anchor"></span>Image 1.10 The EPS PCB with the battery pack mounted   <span id="_Toc493950655" class="anchor"></span>Image 1.11 Solar panel used in UPSat along with a SU probe
   ----------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
@@ -1010,8 +1004,7 @@ It consists of:
 
 ### Science Unit
 
-![](./media/image22.jpeg){width="6.496527777777778in"
-height="4.33125in"}
+![](./media/image22.jpeg){}
 
 <span id="_Toc493950656" class="anchor"></span>Image 1.12 The science
 unit m-NLP
@@ -1034,8 +1027,7 @@ MU9PM-MH USB camera with a 50mm 1/2” IR MP lens.
 The IAC's DART and camera is connected to the OBC PCB and communicated
 directly to the OBC's microcontroller through SPI.
 
-![](./media/image23.jpg){width="4.427290026246719in"
-height="1.3164555993000875in"}
+![](./media/image23.jpg){}
 
 <span id="_Toc493950657" class="anchor"></span>Image 1.13 The DART4460
 of the IAC subsystem
@@ -1056,16 +1048,14 @@ have to operate. The most prominent factor is the radiation. Radiation
 poses a threat to electronics, with observed malfunctions in missions
 \[25\] but with careful design shouldn't be an issue.
 
-![](./media/image24.png){width="5.007472659667542in"
-height="5.129606299212599in"}
+![](./media/image24.png){}
 
 <span id="_Toc493950405" class="anchor"></span>Figure 2.1 Missions with
 radiation issues \[25\]
 
 ### Radiation effects
 
-![](./media/image25.png){width="5.388353018372704in"
-height="1.489501312335958in"}
+![](./media/image25.png){}
 
 <span id="_Toc493950406" class="anchor"></span>Figure 2.2 SEE
 classification \[49\]
@@ -1116,8 +1106,7 @@ memory that stores the program of the OBC resulting in a bricked device.
 
 ### Protection from radiation effects
 
-![](./media/image26.png){width="5.327259405074366in"
-height="1.8273840769903762in"}
+![](./media/image26.png){}
 
 <span id="_Toc493950407" class="anchor"></span>Figure 2.3 Cost of
 2Mbytes rad-hard SRAM \[30\]
@@ -1156,7 +1145,8 @@ components, EDAC memories and other techniques for SEE mitigation, are
 not necessary for a CubeSat to work.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image27.png){width="2.4746751968503937in" height="1.7584897200349956in"}              ![](./media/image28.png){width="2.480916447944007in" height="1.7674923447069117in"}
+  ![](./media/image27.png){}              
+  ![](./media/image28.png){}
                                                                                                     
   <span id="_Toc493950408" class="anchor"></span>Figure 2.4 Argos testbed rad-hard board SEU \[43   <span id="_Toc493950409" class="anchor"></span>Figure 2.5 Argos testbed COTS board SEU \[43\]
   ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
@@ -1238,16 +1228,14 @@ A summary of interesting point is listed below:
 
 -   Add remote software updates.
 
-![](./media/image29.png){width="5.9464457567804025in"
-height="5.137271434820647in"}
+![](./media/image29.png){}
 
 <span id="_Toc493950410" class="anchor"></span>Figure 2.6 SwissCube
 exploded view \[45\]
 
 ### Phonesat
 
-![](./media/image30.png){width="5.213775153105861in"
-height="2.7370231846019246in"}
+![](./media/image30.png){}
 
 <span id="_Toc493950658" class="anchor"></span>Image 2.1 PhoneSat v1.0
 
@@ -1292,7 +1280,8 @@ that reason, it has little value to the UPSat design.
 operational and operated as expected.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image31.png){width="3.0572736220472443in" height="2.1261953193350833in"}   ![](./media/image32.png){width="2.8197572178477692in" height="2.1261953193350833in"}
+  ![](./media/image31.png){}   
+  ![](./media/image32.png){}
                                                                                          
   <span id="_Toc493950659" class="anchor"></span>Image 2.2 PhoneSat v2.5                 <span id="_Toc493950411" class="anchor"></span>Figure 2.7 PhoneSat 2.0 data distribution architecture
   -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
@@ -1307,7 +1296,8 @@ bus for communication.
 ### i-INSPIRE II
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image33.png){width="2.675961286089239in" height="2.505942694663167in"}      ![](./media/image34.png){width="2.0494149168853895in" height="2.505942694663167in"}
+  ![](./media/image33.png){}      
+  ![](./media/image34.png){}
                                                                                           
   <span id="_Toc493950412" class="anchor"></span>Figure 2.8 i-INSPIRE II CubeSat \[47\]   <span id="_Toc493950413" class="anchor"></span>Figure 2.9 i-INSPIRE II software state machine \[47\]
   --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------
@@ -1368,8 +1358,7 @@ available and be efficient.
 
 ### CSP
 
-![](./media/image35.png){width="6.496527777777778in"
-height="1.1715277777777777in"}
+![](./media/image35.png){}
 
 <span id="_Toc493950414" class="anchor"></span>Figure 2.10 CSP header
 
@@ -1397,14 +1386,12 @@ or not.
 
 ### ECSS
 
-![](./media/image36.png){width="6.152241907261592in"
-height="1.8749376640419948in"}
+![](./media/image36.png){}
 
 <span id="_Toc493950415" class="anchor"></span>Figure 2.11 ECSS TC frame
 header
 
-![](./media/image37.png){width="6.152241907261592in"
-height="1.3356714785651793in"}
+![](./media/image37.png){}
 
 <span id="_Toc493950416" class="anchor"></span>Figure 2.12 ECSS TC data
 header
@@ -1647,8 +1634,7 @@ For example, in SwissCube \[45\] a single point of failure is a RF
 switch that alternates the RF modules responsible for communication and
 the RF beacon.
 
-![](./media/image38.png){width="6.075853018372704in"
-height="5.469242125984252in"}
+![](./media/image38.png){}
 
 <span id="_Toc493950417" class="anchor"></span>Figure 2.13 Fault
 tolerance mechanisms \[29\]
@@ -1679,8 +1665,7 @@ redundant hardware is correct. The configuration of the redundant
 hardware and voter design is correlated to the application and the
 budget.
 
-![](./media/image39.png){width="4.319786745406824in"
-height="1.4044149168853892in"}
+![](./media/image39.png){}
 
 <span id="_Toc493950418" class="anchor"></span>Figure 2.14 Hardware
 fault tolerance \[26\]
@@ -1693,8 +1678,7 @@ the Malaysia Airlines Flight 124 where the ADIRU due to a software
 error, used a faulted sensor for flight data, leading to a serious
 incident \[58\].
 
-![](./media/image40.png){width="6.496527777777778in"
-height="3.2736111111111112in"}
+![](./media/image40.png){}
 
 <span id="_Toc493950419" class="anchor"></span>Figure 2.15 B777 flight
 computer \[57\]
@@ -1708,8 +1692,7 @@ computer has the same specification as the B777 but follows a different
 approach, a shadow-master technique, where the boards and software is
 designed by different manufactures.
 
-![](./media/image41.png){width="4.238437226596675in"
-height="3.31877624671916in"}
+![](./media/image41.png){}
 
 <span id="_Toc493950420" class="anchor"></span>Figure 2.16 AIRBUS
 A320-40 flight computer \[57\]
@@ -2165,7 +2148,8 @@ second option is to disable the scheduler and thus remove the chance of
 a possible context switch.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image42.png){width="3.044874234470691in" height="2.3255621172353456in"}   ![](./media/image43.png){width="2.392308617672791in" height="2.3432622484689416in"}
+  ![](./media/image42.png){}   
+  ![](./media/image43.png){}
                                                                                         
   <span id="_Toc493950421" class="anchor"></span>Figure 3.1 Tasks \[12\]                <span id="_Toc493950422" class="anchor"></span>Figure 3.2 tasks life cycle \[12\]
   ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
@@ -2213,8 +2197,7 @@ Chan's FatFS \[32\] was the one-way choice for the file system because
 it was already ported and working with support for SD cards from ST's
 cubeMX, requiring minimum configuration.
 
-![](./media/image44.png){width="5.9994641294838145in"
-height="1.4904068241469817in"}
+![](./media/image44.png){}
 
 <span id="_Toc493950423" class="anchor"></span>Figure 3.3 FAT file
 system structure \[60\]
@@ -2267,7 +2250,8 @@ is opened the risk of failure is minimized as well. Figure 3.5 shows
 optimized code with the use of sync.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image45.png){width="2.9832010061242347in" height="4.141725721784777in"}          ![](./media/image46.png){width="2.9596773840769903in" height="4.126195319335083in"}
+  ![](./media/image45.png){}          
+  ![](./media/image46.png){}
                                                                                                
   <span id="_Toc493950424" class="anchor"></span>Figure 3.4 FatFS critical operations \[32\]   <span id="_Toc493950425" class="anchor"></span>Figure 3.5 FatFS optimized critical operations \[32\]
   -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------
@@ -2573,8 +2557,7 @@ header
 <span id="_Toc493950486" class="anchor"></span>Table 3.8 Command and
 control packet frame
 
-![](./media/image47.png){width="5.792361111111111in"
-height="1.4203805774278215in"}
+![](./media/image47.png){}
 
 ### Services in subsystems
 
@@ -2730,13 +2713,11 @@ encapsulated in ECSS.
 <span id="_Toc493950493" class="anchor"></span>Table 3.15 WOD packet
 format
 
-![](./media/image48.png){width="6.496527777777778in"
-height="1.3854166666666667in"}
+![](./media/image48.png){}
 
 <span id="_Toc493950494" class="anchor"></span>Table 3.16 WOD dataset
 
-![](./media/image49.png){width="6.496527777777778in"
-height="1.2645833333333334in"}
+![](./media/image49.png){}
 
 ### Extended WOD
 
@@ -2757,12 +2738,11 @@ understand it. The disadvantage of CW and the reason that it hosts
 minimal information, is that it has far lower data rate than FSK and
 higher consumption due to lower data rate.
 
-![](./media/image50.png){width="2.9565660542432197in"
-height="1.655676946631671in"}
+![](./media/image50.png){}
 
 <span id="_Toc493950426" class="anchor"></span>Figure 3.6 CW WOD frame
 
-![](./media/image51.png){width="6.496527777777778in" height="4.54375in"}
+![](./media/image51.png){}
 
 <span id="_Toc493950427" class="anchor"></span>Figure 3.7 CW WOD dataset
 
@@ -2924,8 +2904,7 @@ Each part should have the max size of 196 bytes from max data size of
 198 bytes minus the 2 bytes of the large data transfer service header,
 except the last part.
 
-![](./media/image52.png){width="4.093593613298338in"
-height="3.6713254593175852in"}
+![](./media/image52.png){}
 
 <span id="_Toc493950428" class="anchor"></span>Figure 3.8 Large data
 transfer split of the original packet
@@ -3149,8 +3128,7 @@ software is discussed.
 ST cubeMX {#st-cubemx .Style1}
 ---------
 
-![](./media/image53.PNG){width="6.30501968503937in"
-height="3.940721784776903in"}
+![](./media/image53.PNG){}
 
 <span id="_Toc493950429" class="anchor"></span>Figure 4.1 OBC's CubeMX
 project
@@ -3172,8 +3150,7 @@ understand the designer's intent.
 Project folder organization {#project-folder-organization .Style1}
 ---------------------------
 
-![](./media/image54.png){width="6.496527777777778in"
-height="4.017361111111111in"}
+![](./media/image54.png){}
 
 <span id="_Toc493950430" class="anchor"></span>Figure 4.2 Project
 organization
@@ -4904,8 +4881,7 @@ popped from the queue, it is packed to an 8-bit array from the packet
 structure, then is encapsulated in a HLDLC frame and finally is
 transmitted.
 
-![](./media/image55.png){width="5.667361111111111in"
-height="9.257346894138232in"}
+![](./media/image55.png){}
 
 <span id="_Toc493950431" class="anchor"></span>Figure 4.3 The life of a
 packet
@@ -4932,8 +4908,7 @@ discovery kit and 8MHz for the PCBs.
 
 ### FreeRTOS
 
-![](./media/image56.png){width="2.9567071303587054in"
-height="4.674297900262467in"}
+![](./media/image56.png){}
 
 <span id="_Toc493950432" class="anchor"></span>Figure 4.4 On-board
 computer software diagram
@@ -5138,7 +5113,8 @@ After the OBC-ADCS schism, the same code was ported, in order to test
 the new boards.
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image57.jpg){width="2.293811242344707in" height="3.058333333333333in"}   ![](./media/image58.jpg){width="3.103350831146107in" height="2.3274300087489066in"}
+  ![](./media/image57.jpg){}   
+  ![](./media/image58.jpg){}
                                                                                        
   <span id="_Toc493950660" class="anchor"></span>Image 5.1 OBC prototype board         <span id="_Toc493950661" class="anchor"></span>Image 5.2 COMMS power amplifier testing
   ------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
@@ -5158,8 +5134,7 @@ correct parameters for the CC1120 were found. After the successfully
 communication using the developer’s kits, the actual PCB was tested,
 with the same results.
 
-![](./media/image59.PNG){width="6.496527777777778in"
-height="1.4236111111111112in"}
+![](./media/image59.PNG){}
 
 <span id="_Toc493950433" class="anchor"></span>Figure 5.1 ADCS IMU
 communication debugging in a logic analyzer
@@ -5312,8 +5287,7 @@ after a while, it reached its limitations. The need to dynamic create
 packets, the CLI was full after 50-60 commands, plus that it was written
 in ruby.
 
-![](./media/image60.png){width="6.496527777777778in"
-height="3.1493055555555554in"}
+![](./media/image60.png){}
 
 <span id="_Toc493950434" class="anchor"></span>Figure 5.2 Packetcraft
 
@@ -5370,7 +5344,8 @@ opportunity to left UPSat several days working and then examine the logs
 for incorrect behavior.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image61.png){width="2.8340277777777776in" height="2.3269017935258094in"}   ![](./media/image62.jpeg){width="3.097916666666667in" height="2.3233552055993in"}
+  ![](./media/image61.png){}   
+  ![](./media/image62.jpeg){}
                                                                                          
   <span id="_Toc493950435" class="anchor"></span>Figure 5.3 UPSat command and control    <span id="_Toc493950662" class="anchor"></span>Image 5.3 UPSat stack prototype boards
   -------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
@@ -5444,7 +5419,8 @@ event packet could carry debug messages and significant events like
 subsystem reboot.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image63.jpg){width="3.0701388888888888in" height="2.3025240594925633in"}                   ![](./media/image64.PNG){width="2.9760925196850394in" height="2.2666666666666666in"}
+  ![](./media/image63.jpg){}                   
+  ![](./media/image64.PNG){}
                                                                                                          
   <span id="_Toc493950663" class="anchor"></span>Image 5.4 The on-board ST-link connected to the stack   <span id="_Toc493950436" class="anchor"></span>Figure 5.4 Example use of a breakpoint
   ------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------
@@ -5464,8 +5440,7 @@ microcontroller.
 Moreover, Segger provides an ecosystem with free software like
 systemview and J-scope that are invaluable during testing.
 
-![](./media/image65.jpg){width="6.496527777777778in"
-height="4.329861111111111in"}
+![](./media/image65.jpg){}
 
 <span id="_Toc493950664" class="anchor"></span>Image 5.5 J-links
 connected to UPSat for debugging
@@ -5507,8 +5482,7 @@ Besides the sysview module, for systemview to work, the subsystems need
 to include the systemview source files. The code and configuration are
 taken from Segger website \[10\].
 
-![](./media/image66.png){width="5.845487751531059in"
-height="4.389583333333333in"}
+![](./media/image66.png){}
 
 <span id="_Toc493950437" class="anchor"></span>Figure 5.5 Systemview
 events display
@@ -5603,14 +5577,14 @@ immediately. When the instruction was added the issue was solved and the
 task run instantly.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image67.jpeg){width="3.0145833333333334in" height="2.0098293963254594in"}   ![](./media/image68.jpeg){width="3.05625in" height="2.037610454943132in"}
+  ![](./media/image67.jpeg){}   
+  ![](./media/image68.jpeg){}
                                                                                           
   <span id="_Toc493950665" class="anchor"></span>Image 5.6 UPSat systemview               <span id="_Toc493950666" class="anchor"></span>Image 5.7 UPSat systemview testing
   --------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![](./media/image69.PNG){width="5.959027777777778in"
-height="3.724471784776903in"}
+![](./media/image69.PNG){}
 
 <span id="_Toc493950438" class="anchor"></span>Figure 5.6 OBC extended
 WOD communications
@@ -5653,20 +5627,17 @@ files in a mass service store. These tests were made, in order to
 examine if timing was relative to the number of files present in the
 store. The results showed no change in timings.
 
-![](./media/image70.PNG){width="6.496527777777778in"
-height="3.5729166666666665in"}
+![](./media/image70.PNG){}
 
 <span id="_Toc493950439" class="anchor"></span>Figure 5.7 Delay before
 task notification fix
 
-![](./media/image71.PNG){width="6.496527777777778in"
-height="3.5729166666666665in"}
+![](./media/image71.PNG){}
 
 <span id="_Toc493950440" class="anchor"></span>Figure 5.8 Delay after
 task notification fix
 
-![](./media/image72.PNG){width="6.496527777777778in"
-height="3.8979166666666667in"}
+![](./media/image72.PNG){}
 
 <span id="_Toc493950441" class="anchor"></span>Figure 5.9 Mass storage
 service WOD storage
@@ -5724,11 +5695,12 @@ The logs where analyzed by the team by using a custom python script that
 plotted UPSat parameters.
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image73.jpeg){width="3.108167104111986in" height="2.0722222222222224in"}            ![](./media/image74.jpeg){width="3.108167104111986in" height="2.0722222222222224in"}
+  ![](./media/image73.jpeg){}            
+  ![](./media/image74.jpeg){}
                                                                                                   
   <span id="_Toc493950667" class="anchor"></span>Image 5.8 UPSat systemview testing operation     <span id="_Toc493950668" class="anchor"></span>Image 5.9 UPSat systemview operational plot
   ----------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
-  ![](./media/image75.png){width="6.496527777777778in" height="3.0444444444444443in"}
+  ![](./media/image75.png){}
 
   <span id="_Toc493950669" class="anchor"></span>Image 5.10 UPSat extended WOD operational plot
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5768,8 +5740,7 @@ a task switch. Since the delay start of the task happened randomly,
 without systemview it would have been impossible to discover the exact
 nature of the bug.
 
-![](./media/image76.jpg){width="5.764583333333333in"
-height="4.323281933508311in"}
+![](./media/image76.jpg){}
 
 <span id="_Toc493950670" class="anchor"></span>Image 5.11 During S.U.
 E2E tests
@@ -5822,11 +5793,13 @@ different thermal scenarios: heating, cooling, and cycles of cool and
 heat, while UPSat resides in vacuum.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image77.jpg){width="2.2901563867016623in" height="1.6416666666666666in"}   ![](./media/image78.png){width="2.8895833333333334in" height="1.6593077427821523in"}
+  ![](./media/image77.jpg){}   
+  ![](./media/image78.png){}
                                                                                          
   <span id="_Toc493950671" class="anchor"></span>Image 5.12 TVAC chamber with UPSat      <span id="_Toc493950672" class="anchor"></span>Image 5.13 TVAC results
   -------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------
-  ![](./media/image79.jpg){width="2.3201388888888888in" height="1.554313210848644in"}    ![](./media/image80.jpg){width="2.143480971128609in" height="1.6277777777777778in"}
+  ![](./media/image79.jpg){}    
+  ![](./media/image80.jpg){}
                                                                                          
   <span id="_Toc493950673" class="anchor"></span>Image 5.14 UPSat vibration test pod     <span id="_Toc493950674" class="anchor"></span>Image 5.15 UPSat subsystem thermal inspection
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -6021,58 +5994,35 @@ the wheel.
 
 **Godspeed UPSat**
 
-![](./media/image81.jpg){width="6.496527777777778in"
-height="4.334722222222222in"}
+![](./media/image81.jpg){}
 
 <span id="_Toc493950675" class="anchor"></span>Image 6.1 Some people of
 the team, the day before the delivery
 
-![](./media/image82.jpg){width="6.496527777777778in"
-height="4.334722222222222in"}
+![](./media/image82.jpg){}
 
 <span id="_Toc493950676" class="anchor"></span>Image 6.2 UPSat during
 the final tests before delivery
 
-![](./media/image83.jpg){width="6.496527777777778in"
-height="8.661805555555556in"}
+![](./media/image83.jpg){}
 
 <span id="_Toc493950677" class="anchor"></span>Image 6.3 UPSat in the
 Nanorack's deployment pod.
 
-![](./media/image84.jpg){width="5.889212598425197in" height="9.2in"}
+![](./media/image84.jpg){}
 
 <span id="_Toc493950678" class="anchor"></span>Image 6.4 UPSat
 
-![](./media/image85.jpeg){width="9.480972222222222in"
-height="6.31455271216098in"}
+![](./media/image85.jpeg){}
 
 <span id="_Toc493950679" class="anchor"></span>Image 6.5 the CYGNUS
 supply ship that had UPSat, before docking to ISS
 
-![](./media/image86.jpeg){width="9.675171697287839in"
-height="6.44389435695538in"}
+![](./media/image86.jpeg){}
 
 <span id="_Toc493950680" class="anchor"></span>Image 6.6 UPSat along
 with 2 other CubeSats released from ISS
 
-ABBREVIATIONS - ACRONYMS  {#abbreviations---acronyms .ListParagraph}
-=========================
-
-  ECSS    The European Cooperation for Space Standardization.
-  ------- -----------------------------------------------------
-  CSP     Cubesat Space Protocol.
-  CnC     Command and Control.
-  OBC     On-Board Computer.
-  ADCS    Attitude Determination Control System.
-  COMMS   COMMunication System.
-  PCB     Printed Circuit Board.
-  HLDLC   High-Level Data Link Control.
-  UART    Universal Asynchronous Receiver Transmitter.
-  SEE     Single Event Effects.
-  TID     Total Ionization Dose.
-  LEO     Low Earth Orbit.
-  COTS    Commercial Off The Shelf components.
-  WOD     Whole Orbit Data.
 
 REFERENCES {#references .ListParagraph}
 ==========
