@@ -5415,7 +5415,6 @@ added in repository in the core folder.
 Listing 5.4 ISR naming in systemview
 
   SEGGER\_SYSVIEW\_SendSysDesc("I\#15=SysTick,I\#53=EPS\_U1,I\#54=SU\_U2,I\#55=UMB\_U3,I\#65=SDIO,I\#67=IAC\_SPI3,I\#68=COMMS\_U4,I\#87=ADCS\_U6,I\#86=EPS\_DMA,I\#33=SU\_DMA,I\#30=UMB\_DMA,I\#31=COMMS\_DMA,I\#70=ADCS\_DMA");
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The SYSVIEW definition enables the sysview module. All subsystems must
 include the sysview functions. If the sysview functionality is disable,
@@ -5648,11 +5647,10 @@ plotted UPSat parameters.
   ![](./media/image74.jpeg)
                                                                                                   
   <span id="_Toc493950667" class="anchor"></span>Image 5.8 UPSat systemview testing operation     <span id="_Toc493950668" class="anchor"></span>Image 5.9 UPSat systemview operational plot
-  ----------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+
   ![](./media/image75.png)
 
   <span id="_Toc493950669" class="anchor"></span>Image 5.10 UPSat extended WOD operational plot
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Functional tests
 ----------------
