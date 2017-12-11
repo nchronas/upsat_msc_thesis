@@ -631,7 +631,7 @@ data state machine 105](#_Toc493950515)
 
 [Table 5.1 Functional test list and description 131](#_Toc493950516)
 
-<span id="_Toc219883673" class="anchor"><span id="_Toc220232047" class="anchor"></span></span> {#section .ListParagraph}
+<span id="_Toc219883673" class="anchor"><span id="_Toc220232047" class="anchor"></span></span> 
 ==============================================================================================
 
 INTRODUCTION
@@ -659,7 +659,7 @@ be presented.
 In the final chapter, conclusions, thoughts and future improvements are
 presented and discussed.
 
-Time {#time .Style1}
+Time 
 ----
 
 The most important factor in this project was time. From the first time,
@@ -684,7 +684,7 @@ Due to these strict conditions, time limitations affected all aspects of
 the CubeSat development and it was the prominent factor in all
 decisions.
 
-Space and software {#space-and-software .Style1}
+Space and software 
 ------------------
 
 Having to design and implement software that is indented to work in
@@ -693,10 +693,10 @@ Environmental radiation affects the electronics resulting in corrupt
 memory or more permanent damage like flash and the fact that once the
 CubeSat is launched into space, it cannot be examined or repaired.
 
-CubeSats {#cubesats .Style1}
+CubeSats 
 --------
 
-![](./media/image3.png){}
+![](./media/image3.png)
 
 <span id="_Toc493950398" class="anchor"></span>Figure 1.1 CubeSat unit
 specification
@@ -721,7 +721,7 @@ CubeSats dimensions are defined in 1U that is equal to 10x10x10 cm and
 multiples of that. At first most of the CubeSats were 1U but later more
 options became available for launch configurations to 6U or even 12U.
 
-Commercial Off The Shelf Components {#commercial-off-the-shelf-components .Style1}
+Commercial Off The Shelf Components 
 -----------------------------------
 
 One reason that makes CubeSats a low-cost solution is the use of COTS.
@@ -732,13 +732,13 @@ available counter parts and usually one generation behind in the
 technologies used.
 
   ------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------
-  ![](./media/image4.png){}   
-  ![](./media/image5.png){}
+  ![](./media/image4.png)   
+  ![](./media/image5.png)
   \(a) Cubesat launches per year \[13\].                                               \(b) CubeSat launches per organization \[13\].
   <span id="_Toc493950399" class="anchor"></span>Figure 1.2 CubeSat numbers
   ------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------
 
-Space and open source {#space-and-open-source .Style1}
+Space and open source 
 ---------------------
 
 NASA states in \[19\]: "At the other end of the spectrum, low-cost
@@ -758,7 +758,7 @@ isn't a luxury, but a critical necessity. By open sourcing and allowing
 a wider audience to view and analyze the code, not only help engage the
 community but also increases the possibility of discovering errors.
 
-SatNOGS {#satnogs .Style1}
+SatNOGS 
 -------
 
 The SatNOGS \[4\] project aim is to provide an open source software and
@@ -779,19 +779,17 @@ SatNOGS consists of 4 parts:
 
 -   The Ground Station contains the rotator, antennas and electronics.
 
-![](./media/image6.png){}
+![](./media/image6.png)
 
 <span id="_Toc493950400" class="anchor"></span>Figure 1.3 SatNOGS \[4\]
 
-![](./media/image7.jpeg){}
+![](./media/image7.jpeg)
 
 <span id="_Toc493950645" class="anchor"></span>Image 1.1 SatNOGS rotator
 \[4\]
 
-Mission requirements {#mission-requirements .Style1}
+Mission requirements 
 --------------------
-
-$
 
 <span id="_Toc493950401" class="anchor"></span>Figure 1.4 QB50 targets
 \[8\]
@@ -834,7 +832,7 @@ requirements.
   QB50-SYS-3.1.2            The satellite flight software shall be tested for at least 14h satellite continuous up-time under representative operations.
   QB50-SYS-3.2.1            CubeSats boarding the QB50 Sensors Unit shall perform an End-to- End test, to verify the functionality of the sensors and the interfaces with the CubeSat subsystems.
 
-UPSat {#upsat .Style1}
+UPSat 
 -----
 
 In this section, the subsystems of UPSat are analyzed along with the
@@ -853,19 +851,19 @@ the necessary services functionality.
 The umbilical connector is used for charging the on-board batteries and
 serial connection with the OBC used for testing.
 
-![](./media/image9.png){}
+![](./media/image9.png)
 
 <span id="_Toc493950402" class="anchor"></span>Figure 1.5 UPSat
 subsystems.
 
-![](./media/image10.png){}
+![](./media/image10.png)
 
 <span id="_Toc493950403" class="anchor"></span>Figure 1.6 UPSat
 subsystems diagram
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image11.jpeg){}                          
-  ![](./media/image12.jpg){}
+  ![](./media/image11.jpeg)                          
+  ![](./media/image12.jpg)
                                                                                                                 
   <span id="_Toc493950646" class="anchor"></span>Image 1.2 UPSat subsystems mounted in the aluminum structure   <span id="_Toc493950647" class="anchor"></span>Image 1.3 UPSat's umbilical connector and remove before flight switch
   ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------
@@ -873,7 +871,7 @@ subsystems diagram
 
 ### COMMS
 
-![](./media/image13.png){}
+![](./media/image13.png)
 
 <span id="_Toc493950404" class="anchor"></span>Figure 1.7 COMMS
 subsystem \[6\]
@@ -884,7 +882,7 @@ communication with the Earth and the ground stations.
 It consists of: STM32F407 microcontroller with an ARM cortex M4 CPU core
 that has 1 Mbyte of Flash and
 
-![](./media/image14.jpeg){}192 Kbytes of SRAM, 2 CC1120 RF
+![](./media/image14.jpeg)192 Kbytes of SRAM, 2 CC1120 RF
 transceivers with 2-FSK modulation, connected with the microcontroller
 with SPI, one used for reception at 145 MHZ and the other for
 transmission at 435 MHZ, the ADT7420 temperature sensor connected with
@@ -896,7 +894,7 @@ The COMMS is connected to the antenna deployment system that deploys the
 
 ### OBC
 
-![](./media/image15.jpeg){}
+![](./media/image15.jpeg)
 
 <span id="_Toc493950649" class="anchor"></span>Image 1.5 OBC subsystem
 during testing
@@ -925,8 +923,8 @@ could host both functionalities, it was decided to split the subsystems
 into 2 PCBs and microcontrollers respectively.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image16.jpeg){}   
-  ![](./media/image17.jpeg){}
+  ![](./media/image16.jpeg)   
+  ![](./media/image17.jpeg)
                                                                                         
   <span id="_Toc493950650" class="anchor"></span>Image 1.6 OBC and ADCS subsystem       <span id="_Toc493950651" class="anchor"></span>Image 1.7 ADCS subsystem unpopulated PCB
   ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
@@ -934,7 +932,7 @@ into 2 PCBs and microcontrollers respectively.
 
 ### ADCS
 
-![](./media/image18.png){}The Altitude Determination and Control
+![](./media/image18.png)The Altitude Determination and Control
 Subsystem (ADCS) is responsible for determine UPSat's position and
 rotation and controlling the behaviour according to the defined set
 points. The microcontoller takes the sensors information, feeds it to
@@ -972,7 +970,7 @@ It consists of:
 
     1.  ### EPS
 
-![](./media/image19.jpeg){}
+![](./media/image19.jpeg)
 
 <span id="_Toc493950653" class="anchor"></span>Image 1.9 EPS subsystems
 PCBs
@@ -995,8 +993,8 @@ It consists of:
 -   MOSFET switches for controlling the subsystems power.
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image20.jpg){}                  
-  ![](./media/image21.jpg){}
+  ![](./media/image20.jpg)                  
+  ![](./media/image21.jpg)
                                                                                                         
   <span id="_Toc493950654" class="anchor"></span>Image 1.10 The EPS PCB with the battery pack mounted   <span id="_Toc493950655" class="anchor"></span>Image 1.11 Solar panel used in UPSat along with a SU probe
   ----------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
@@ -1004,7 +1002,7 @@ It consists of:
 
 ### Science Unit
 
-![](./media/image22.jpeg){}
+![](./media/image22.jpeg)
 
 <span id="_Toc493950656" class="anchor"></span>Image 1.12 The science
 unit m-NLP
@@ -1027,7 +1025,7 @@ MU9PM-MH USB camera with a 50mm 1/2” IR MP lens.
 The IAC's DART and camera is connected to the OBC PCB and communicated
 directly to the OBC's microcontroller through SPI.
 
-![](./media/image23.jpg){}
+![](./media/image23.jpg)
 
 <span id="_Toc493950657" class="anchor"></span>Image 1.13 The DART4460
 of the IAC subsystem
@@ -1039,7 +1037,7 @@ In this chapter, the preliminary research for the software development
 of UPSat regarding the command & control module and the OBC is
 introduced.
 
-Single event effects and rad hard {#single-event-effects-and-rad-hard .Style1}
+Single event effects and rad hard 
 ---------------------------------
 
 The most characteristic issue, during the design and operation of
@@ -1048,14 +1046,14 @@ have to operate. The most prominent factor is the radiation. Radiation
 poses a threat to electronics, with observed malfunctions in missions
 \[25\] but with careful design shouldn't be an issue.
 
-![](./media/image24.png){}
+![](./media/image24.png)
 
 <span id="_Toc493950405" class="anchor"></span>Figure 2.1 Missions with
 radiation issues \[25\]
 
 ### Radiation effects
 
-![](./media/image25.png){}
+![](./media/image25.png)
 
 <span id="_Toc493950406" class="anchor"></span>Figure 2.2 SEE
 classification \[49\]
@@ -1106,7 +1104,7 @@ memory that stores the program of the OBC resulting in a bricked device.
 
 ### Protection from radiation effects
 
-![](./media/image26.png){}
+![](./media/image26.png)
 
 <span id="_Toc493950407" class="anchor"></span>Figure 2.3 Cost of
 2Mbytes rad-hard SRAM \[30\]
@@ -1145,14 +1143,14 @@ components, EDAC memories and other techniques for SEE mitigation, are
 not necessary for a CubeSat to work.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image27.png){}              
-  ![](./media/image28.png){}
+  ![](./media/image27.png)              
+  ![](./media/image28.png)
                                                                                                     
   <span id="_Toc493950408" class="anchor"></span>Figure 2.4 Argos testbed rad-hard board SEU \[43   <span id="_Toc493950409" class="anchor"></span>Figure 2.5 Argos testbed COTS board SEU \[43\]
   ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-State of the art {#state-of-the-art .Style1}
+State of the art 
 ----------------
 
 Almost the first thing that was researched, in order to draw
@@ -1228,14 +1226,14 @@ A summary of interesting point is listed below:
 
 -   Add remote software updates.
 
-![](./media/image29.png){}
+![](./media/image29.png)
 
 <span id="_Toc493950410" class="anchor"></span>Figure 2.6 SwissCube
 exploded view \[45\]
 
 ### Phonesat
 
-![](./media/image30.png){}
+![](./media/image30.png)
 
 <span id="_Toc493950658" class="anchor"></span>Image 2.1 PhoneSat v1.0
 
@@ -1280,8 +1278,8 @@ that reason, it has little value to the UPSat design.
 operational and operated as expected.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image31.png){}   
-  ![](./media/image32.png){}
+  ![](./media/image31.png)   
+  ![](./media/image32.png)
                                                                                          
   <span id="_Toc493950659" class="anchor"></span>Image 2.2 PhoneSat v2.5                 <span id="_Toc493950411" class="anchor"></span>Figure 2.7 PhoneSat 2.0 data distribution architecture
   -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
@@ -1296,8 +1294,8 @@ bus for communication.
 ### i-INSPIRE II
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image33.png){}      
-  ![](./media/image34.png){}
+  ![](./media/image33.png)      
+  ![](./media/image34.png)
                                                                                           
   <span id="_Toc493950412" class="anchor"></span>Figure 2.8 i-INSPIRE II CubeSat \[47\]   <span id="_Toc493950413" class="anchor"></span>Figure 2.9 i-INSPIRE II software state machine \[47\]
   --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------
@@ -1314,7 +1312,7 @@ and control. An interesting fact is that the main processor board is a
 CTOS provided from Olimex and is not designed in house. The OBC and the
 ground station communicate with an ASCII protocol.
 
-Command and control module {#command-and-control-module .Style1}
+Command and control module 
 --------------------------
 
 The CnC (command and control) module, defines the protocol for earth to
@@ -1358,7 +1356,7 @@ available and be efficient.
 
 ### CSP
 
-![](./media/image35.png){}
+![](./media/image35.png)
 
 <span id="_Toc493950414" class="anchor"></span>Figure 2.10 CSP header
 
@@ -1386,12 +1384,12 @@ or not.
 
 ### ECSS
 
-![](./media/image36.png){}
+![](./media/image36.png)
 
 <span id="_Toc493950415" class="anchor"></span>Figure 2.11 ECSS TC frame
 header
 
-![](./media/image37.png){}
+![](./media/image37.png)
 
 <span id="_Toc493950416" class="anchor"></span>Figure 2.12 ECSS TC data
 header
@@ -1490,7 +1488,7 @@ and the modular design of the ECSS.
 -   ECSS is highly flexible on the actual implementation and it allowed
     to customize it according to our needs.
 
-    1.  Safety critical software {#safety-critical-software .Style1}
+    1.  Safety critical software 
         ------------------------
 
 C is the language of choice for UPSat. ADA was never really embraced
@@ -1552,7 +1550,7 @@ better understanding, can see the benefits in code clarity and safety
 the times add more specific rules \[44\]. In addition to the JPL's 10
 rules, the 17 steps \[40\] were consider as well.
 
-Fault tolerance {#fault-tolerance .Style1}
+Fault tolerance 
 ---------------
 
 Fault tolerance is "Fault tolerance is the property that enables a
@@ -1634,7 +1632,7 @@ For example, in SwissCube \[45\] a single point of failure is a RF
 switch that alternates the RF modules responsible for communication and
 the RF beacon.
 
-![](./media/image38.png){}
+![](./media/image38.png)
 
 <span id="_Toc493950417" class="anchor"></span>Figure 2.13 Fault
 tolerance mechanisms \[29\]
@@ -1665,7 +1663,7 @@ redundant hardware is correct. The configuration of the redundant
 hardware and voter design is correlated to the application and the
 budget.
 
-![](./media/image39.png){}
+![](./media/image39.png)
 
 <span id="_Toc493950418" class="anchor"></span>Figure 2.14 Hardware
 fault tolerance \[26\]
@@ -1678,7 +1676,7 @@ the Malaysia Airlines Flight 124 where the ADIRU due to a software
 error, used a faulted sensor for flight data, leading to a serious
 incident \[58\].
 
-![](./media/image40.png){}
+![](./media/image40.png)
 
 <span id="_Toc493950419" class="anchor"></span>Figure 2.15 B777 flight
 computer \[57\]
@@ -1692,7 +1690,7 @@ computer has the same specification as the B777 but follows a different
 approach, a shadow-master technique, where the boards and software is
 designed by different manufactures.
 
-![](./media/image41.png){}
+![](./media/image41.png)
 
 <span id="_Toc493950420" class="anchor"></span>Figure 2.16 AIRBUS
 A320-40 flight computer \[57\]
@@ -1737,10 +1735,10 @@ DESIGN
 In this chapter, the various design choices and the reasons behind are
 discussed.
 
-Coding standards on UPSat {#coding-standards-on-upsat .Style1}
+Coding standards on UPSat 
 -------------------------
 
- {#section-1 .Style1}
+ 
 
 There wasn't enough time to setup the tools needed to enforce and use
 properly a specific coding standard, for that reason the JPL's 10 rules
@@ -1802,7 +1800,7 @@ absolutely must.
 
 Using the right tools can save a lot of trouble and time (step 7).
 
-Fault tolerance on UPSat {#fault-tolerance-on-upsat .Style1}
+Fault tolerance on UPSat 
 ------------------------
 
 The main techniques used for fault tolerance in software was:
@@ -1929,7 +1927,7 @@ data hold critical states of the CubeSat. The state values are generated
 with random number generator. More over the states have multiple values.
 These are used for protection against SEEs.
 
-OBC {#obc-1 .Style1}
+OBC 
 ---
 
 In the following sections the design choices about the OBC will be
@@ -2148,8 +2146,8 @@ second option is to disable the scheduler and thus remove the chance of
 a possible context switch.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image42.png){}   
-  ![](./media/image43.png){}
+  ![](./media/image42.png)   
+  ![](./media/image43.png)
                                                                                         
   <span id="_Toc493950421" class="anchor"></span>Figure 3.1 Tasks \[12\]                <span id="_Toc493950422" class="anchor"></span>Figure 3.2 tasks life cycle \[12\]
   ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
@@ -2197,7 +2195,7 @@ Chan's FatFS \[32\] was the one-way choice for the file system because
 it was already ported and working with support for SD cards from ST's
 cubeMX, requiring minimum configuration.
 
-![](./media/image44.png){}
+![](./media/image44.png)
 
 <span id="_Toc493950423" class="anchor"></span>Figure 3.3 FAT file
 system structure \[60\]
@@ -2250,14 +2248,14 @@ is opened the risk of failure is minimized as well. Figure 3.5 shows
 optimized code with the use of sync.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image45.png){}          
-  ![](./media/image46.png){}
+  ![](./media/image45.png)          
+  ![](./media/image46.png)
                                                                                                
   <span id="_Toc493950424" class="anchor"></span>Figure 3.4 FatFS critical operations \[32\]   <span id="_Toc493950425" class="anchor"></span>Figure 3.5 FatFS optimized critical operations \[32\]
   -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ECSS services {#ecss-services .Style1}
+ECSS services 
 -------------
 
 The ECSS standard is highly adaptive and provides many different
@@ -2557,7 +2555,7 @@ header
 <span id="_Toc493950486" class="anchor"></span>Table 3.8 Command and
 control packet frame
 
-![](./media/image47.png){}
+![](./media/image47.png)
 
 ### Services in subsystems
 
@@ -2713,11 +2711,11 @@ encapsulated in ECSS.
 <span id="_Toc493950493" class="anchor"></span>Table 3.15 WOD packet
 format
 
-![](./media/image48.png){}
+![](./media/image48.png)
 
 <span id="_Toc493950494" class="anchor"></span>Table 3.16 WOD dataset
 
-![](./media/image49.png){}
+![](./media/image49.png)
 
 ### Extended WOD
 
@@ -2738,11 +2736,11 @@ understand it. The disadvantage of CW and the reason that it hosts
 minimal information, is that it has far lower data rate than FSK and
 higher consumption due to lower data rate.
 
-![](./media/image50.png){}
+![](./media/image50.png)
 
 <span id="_Toc493950426" class="anchor"></span>Figure 3.6 CW WOD frame
 
-![](./media/image51.png){}
+![](./media/image51.png)
 
 <span id="_Toc493950427" class="anchor"></span>Figure 3.7 CW WOD dataset
 
@@ -2904,7 +2902,7 @@ Each part should have the max size of 196 bytes from max data size of
 198 bytes minus the 2 bytes of the large data transfer service header,
 except the last part.
 
-![](./media/image52.png){}
+![](./media/image52.png)
 
 <span id="_Toc493950428" class="anchor"></span>Figure 3.8 Large data
 transfer split of the original packet
@@ -3125,10 +3123,10 @@ Implementation
 In this chapter, the implementation of the ECSS services and the OBC
 software is discussed.
 
-ST cubeMX {#st-cubemx .Style1}
+ST cubeMX 
 ---------
 
-![](./media/image53.PNG){}
+![](./media/image53.PNG)
 
 <span id="_Toc493950429" class="anchor"></span>Figure 4.1 OBC's CubeMX
 project
@@ -3147,10 +3145,10 @@ CubeMX libraries design differ from standard library and other libraries
 used in different ARM cores, thus it required more time initial to
 understand the designer's intent.
 
-Project folder organization {#project-folder-organization .Style1}
+Project folder organization 
 ---------------------------
 
-![](./media/image54.png){}
+![](./media/image54.png)
 
 <span id="_Toc493950430" class="anchor"></span>Figure 4.2 Project
 organization
@@ -3164,7 +3162,7 @@ is the code that is specific to each subsystem, in their folder
 respectively. Inside each subsystem's folder there is a HAL/STM32 folder
 that has the subsystem's HAL. In the core subfolder, there are functions
 
-GPS {#gps .Style1}
+GPS 
 ---
 
 The GPS connect to the ADCS provides with critical information about the
@@ -3207,7 +3205,7 @@ Listing 4.1 GPS module functions
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
 
-HLDLC {#hldlc .Style1}
+HLDLC 
 -----
 
 Protocols like SPI and \$I\^2C\$ it is possible to transfer multiple
@@ -3274,7 +3272,7 @@ Listing 4.2 HLDLC module functionsh
   ---------------------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------
 
-Packet Pool {#packet-pool .Style1}
+Packet Pool 
 -----------
 
 <span id="_Toc493950512" class="anchor"></span>Table 4.1 Number of
@@ -3384,7 +3382,7 @@ Listing 4.3 packet pool module functions
   ------------------------------------------------
   ------------------------------------------------
 
-Queues {#queues .Style1}
+Queues 
 ------
 
 When a packet is about to be shipped in another subsystem, the pointer
@@ -3424,7 +3422,7 @@ Listing 4.4 Queue module functions
   -------------------------------------------------------------------------
   -------------------------------------------------------------------------
 
-Hardware abstraction layer {#hardware-abstraction-layer .Style1}
+Hardware abstraction layer 
 --------------------------
 
 The hardware abstraction layer (HAL) provides a way for the ECSS
@@ -3482,7 +3480,7 @@ Listing 4.6 OBC HAL function example
   ----------------------------------------
   ----------------------------------------
 
-Peripheral modes {#peripheral-modes .Style1}
+Peripheral modes 
 ----------------
 
 In this section, the operation modes of the microcontroller's peripheral
@@ -4881,7 +4879,7 @@ popped from the queue, it is packed to an 8-bit array from the packet
 structure, then is encapsulated in a HLDLC frame and finally is
 transmitted.
 
-![](./media/image55.png){}
+![](./media/image55.png)
 
 <span id="_Toc493950431" class="anchor"></span>Figure 4.3 The life of a
 packet
@@ -4908,7 +4906,7 @@ discovery kit and 8MHz for the PCBs.
 
 ### FreeRTOS
 
-![](./media/image56.png){}
+![](./media/image56.png)
 
 <span id="_Toc493950432" class="anchor"></span>Figure 4.4 On-board
 computer software diagram
@@ -5113,8 +5111,8 @@ After the OBC-ADCS schism, the same code was ported, in order to test
 the new boards.
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image57.jpg){}   
-  ![](./media/image58.jpg){}
+  ![](./media/image57.jpg)   
+  ![](./media/image58.jpg)
                                                                                        
   <span id="_Toc493950660" class="anchor"></span>Image 5.1 OBC prototype board         <span id="_Toc493950661" class="anchor"></span>Image 5.2 COMMS power amplifier testing
   ------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
@@ -5134,7 +5132,7 @@ correct parameters for the CC1120 were found. After the successfully
 communication using the developer’s kits, the actual PCB was tested,
 with the same results.
 
-![](./media/image59.PNG){}
+![](./media/image59.PNG)
 
 <span id="_Toc493950433" class="anchor"></span>Figure 5.1 ADCS IMU
 communication debugging in a logic analyzer
@@ -5287,7 +5285,7 @@ after a while, it reached its limitations. The need to dynamic create
 packets, the CLI was full after 50-60 commands, plus that it was written
 in ruby.
 
-![](./media/image60.png){}
+![](./media/image60.png)
 
 <span id="_Toc493950434" class="anchor"></span>Figure 5.2 Packetcraft
 
@@ -5344,8 +5342,8 @@ opportunity to left UPSat several days working and then examine the logs
 for incorrect behavior.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image61.png){}   
-  ![](./media/image62.jpeg){}
+  ![](./media/image61.png)   
+  ![](./media/image62.jpeg)
                                                                                          
   <span id="_Toc493950435" class="anchor"></span>Figure 5.3 UPSat command and control    <span id="_Toc493950662" class="anchor"></span>Image 5.3 UPSat stack prototype boards
   -------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
@@ -5419,8 +5417,8 @@ event packet could carry debug messages and significant events like
 subsystem reboot.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image63.jpg){}                   
-  ![](./media/image64.PNG){}
+  ![](./media/image63.jpg)                   
+  ![](./media/image64.PNG)
                                                                                                          
   <span id="_Toc493950663" class="anchor"></span>Image 5.4 The on-board ST-link connected to the stack   <span id="_Toc493950436" class="anchor"></span>Figure 5.4 Example use of a breakpoint
   ------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------
@@ -5440,7 +5438,7 @@ microcontroller.
 Moreover, Segger provides an ecosystem with free software like
 systemview and J-scope that are invaluable during testing.
 
-![](./media/image65.jpg){}
+![](./media/image65.jpg)
 
 <span id="_Toc493950664" class="anchor"></span>Image 5.5 J-links
 connected to UPSat for debugging
@@ -5482,7 +5480,7 @@ Besides the sysview module, for systemview to work, the subsystems need
 to include the systemview source files. The code and configuration are
 taken from Segger website \[10\].
 
-![](./media/image66.png){}
+![](./media/image66.png)
 
 <span id="_Toc493950437" class="anchor"></span>Figure 5.5 Systemview
 events display
@@ -5577,14 +5575,14 @@ immediately. When the instruction was added the issue was solved and the
 task run instantly.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image67.jpeg){}   
-  ![](./media/image68.jpeg){}
+  ![](./media/image67.jpeg)   
+  ![](./media/image68.jpeg)
                                                                                           
   <span id="_Toc493950665" class="anchor"></span>Image 5.6 UPSat systemview               <span id="_Toc493950666" class="anchor"></span>Image 5.7 UPSat systemview testing
   --------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![](./media/image69.PNG){}
+![](./media/image69.PNG)
 
 <span id="_Toc493950438" class="anchor"></span>Figure 5.6 OBC extended
 WOD communications
@@ -5627,17 +5625,17 @@ files in a mass service store. These tests were made, in order to
 examine if timing was relative to the number of files present in the
 store. The results showed no change in timings.
 
-![](./media/image70.PNG){}
+![](./media/image70.PNG)
 
 <span id="_Toc493950439" class="anchor"></span>Figure 5.7 Delay before
 task notification fix
 
-![](./media/image71.PNG){}
+![](./media/image71.PNG)
 
 <span id="_Toc493950440" class="anchor"></span>Figure 5.8 Delay after
 task notification fix
 
-![](./media/image72.PNG){}
+![](./media/image72.PNG)
 
 <span id="_Toc493950441" class="anchor"></span>Figure 5.9 Mass storage
 service WOD storage
@@ -5695,12 +5693,12 @@ The logs where analyzed by the team by using a custom python script that
 plotted UPSat parameters.
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image73.jpeg){}            
-  ![](./media/image74.jpeg){}
+  ![](./media/image73.jpeg)            
+  ![](./media/image74.jpeg)
                                                                                                   
   <span id="_Toc493950667" class="anchor"></span>Image 5.8 UPSat systemview testing operation     <span id="_Toc493950668" class="anchor"></span>Image 5.9 UPSat systemview operational plot
   ----------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
-  ![](./media/image75.png){}
+  ![](./media/image75.png)
 
   <span id="_Toc493950669" class="anchor"></span>Image 5.10 UPSat extended WOD operational plot
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5740,7 +5738,7 @@ a task switch. Since the delay start of the task happened randomly,
 without systemview it would have been impossible to discover the exact
 nature of the bug.
 
-![](./media/image76.jpg){}
+![](./media/image76.jpg)
 
 <span id="_Toc493950670" class="anchor"></span>Image 5.11 During S.U.
 E2E tests
@@ -5793,13 +5791,13 @@ different thermal scenarios: heating, cooling, and cycles of cool and
 heat, while UPSat resides in vacuum.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image77.jpg){}   
-  ![](./media/image78.png){}
+  ![](./media/image77.jpg)   
+  ![](./media/image78.png)
                                                                                          
   <span id="_Toc493950671" class="anchor"></span>Image 5.12 TVAC chamber with UPSat      <span id="_Toc493950672" class="anchor"></span>Image 5.13 TVAC results
   -------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------
-  ![](./media/image79.jpg){}    
-  ![](./media/image80.jpg){}
+  ![](./media/image79.jpg)    
+  ![](./media/image80.jpg)
                                                                                          
   <span id="_Toc493950673" class="anchor"></span>Image 5.14 UPSat vibration test pod     <span id="_Toc493950674" class="anchor"></span>Image 5.15 UPSat subsystem thermal inspection
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5994,37 +5992,37 @@ the wheel.
 
 **Godspeed UPSat**
 
-![](./media/image81.jpg){}
+![](./media/image81.jpg)
 
 <span id="_Toc493950675" class="anchor"></span>Image 6.1 Some people of
 the team, the day before the delivery
 
-![](./media/image82.jpg){}
+![](./media/image82.jpg)
 
 <span id="_Toc493950676" class="anchor"></span>Image 6.2 UPSat during
 the final tests before delivery
 
-![](./media/image83.jpg){}
+![](./media/image83.jpg)
 
 <span id="_Toc493950677" class="anchor"></span>Image 6.3 UPSat in the
 Nanorack's deployment pod.
 
-![](./media/image84.jpg){}
+![](./media/image84.jpg)
 
 <span id="_Toc493950678" class="anchor"></span>Image 6.4 UPSat
 
-![](./media/image85.jpeg){}
+![](./media/image85.jpeg)
 
 <span id="_Toc493950679" class="anchor"></span>Image 6.5 the CYGNUS
 supply ship that had UPSat, before docking to ISS
 
-![](./media/image86.jpeg){}
+![](./media/image86.jpeg)
 
 <span id="_Toc493950680" class="anchor"></span>Image 6.6 UPSat along
 with 2 other CubeSats released from ISS
 
 
-REFERENCES {#references .ListParagraph}
+REFERENCES 
 ==========
 
 1.  https://github.com/librespacefoundation/packetcraft.
