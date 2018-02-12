@@ -1479,7 +1479,7 @@ and the modular design of the ECSS.
     1.  Safety critical software 
         ------------------------
 
-C is the language of choice for UPSat. ADA was never really embraced
+C is the language of choice for UPSat. Ada was never really embraced
 from the community, Rust is too young and both of them lack the
 ecosystem to quickly use them with the STM32 microcontroller. C though
 was primary designed for system programming and not for safe critical
